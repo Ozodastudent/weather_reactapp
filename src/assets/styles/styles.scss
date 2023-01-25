@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+body {
+  font-family: "Poppins";
+  color: #fff;
+  background-color: rgba(211, 211, 211, 0.596);
+  overflow-x: hidden;
+}
+.weather_card {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 50px auto;
+  padding: 32px 0 50px 70px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 0 3px rgb(34, 81, 97);
+}
+@media only screen and (max-width: 1046px) {
+  .weather_card {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 30px auto;
+    padding: 32px 0 160px 70px;
+    display: flex;
+    align-items: flex-end;
+  }
+}

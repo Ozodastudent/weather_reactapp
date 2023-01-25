@@ -1,0 +1,197 @@
+.weather_cards {
+  position: static;
+}
+.weather_info {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.weather_gradus {
+  font-size: 90px;
+  font-weight: 500;
+}
+.weather_area {
+  margin: 30px;
+}
+.weather_location {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.weather_time {
+  font-size: 16px;
+}
+.weather_climate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather_climate_icon {
+  margin: 0;
+}
+.weather_climate_info {
+  line-height: 0;
+  margin-top: 0;
+}
+@media only screen and (max-width: 1170px) {
+  .weather_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.363);
+  }
+}
+@media only screen and (max-width: 1046px) {
+  .weather_cards {
+    position: absolute;
+    top: calc(10% + 90px);
+    left: calc(50% - 300px);
+  }
+  .weather_info {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.363);
+  }
+}
+@media only screen and (max-width: 880px) {
+  .weather_cards {
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(10% + 90px);
+  }
+}
+@media only screen and (max-width: 840px) {
+  .weather_cards {
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(10% + 70px);
+  }
+}
+@media only screen and (max-width: 770px) {
+  .weather_cards {
+    position: absolute;
+    top: calc(10% + 160px);
+    left: 14%;
+    right: 14%;
+  }
+  .weather_info {
+    width: 100%;
+    max-width: 500px;
+  }
+  .weather_gradus {
+    font-size: 60px;
+  }
+  .weather_area {
+    margin: 20px;
+  }
+  .weather_location {
+    font-size: 24px;
+  }
+  .weather_time {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(20%);
+    right: 20%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(20% - 50px);
+    right: 20%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(20% - 50px);
+    right: 20%;
+  }
+  .weather_info {
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .weather_gradus {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    top: calc(10% + 160px);
+    left: calc(20% - 50px);
+    right: 20%;
+  }
+  .weather_location {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 360px;
+    position: absolute;
+    top: calc(10% + 160px);
+    right: 3%;
+    left: 3%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 320px;
+    position: absolute;
+    top: calc(10% + 160px);
+    right: 2%;
+    left: 2%;
+  }
+  .weather_info {
+    width: 100%;
+    max-width: 320px;
+  }
+  .weather_gradus {
+    font-size: 26px;
+  }
+  .weather_area {
+    margin: 0px;
+  }
+  .weather_location {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .weather_cards {
+    width: 100%;
+    max-width: 320px;
+    position: absolute;
+    top: calc(10% + 40px);
+    left: calc(10% - 0px);
+    right: 20%;
+  }
+}
